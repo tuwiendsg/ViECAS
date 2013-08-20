@@ -1,0 +1,8 @@
+<project default="wsimport">
+  <target name="wsimport">
+    <exec executable="wsimport">
+      <arg line="-keep -s ./src -p at.ac.tuwien.dsg.scucrowd.middleware.jaxws 
+          -d ./bin http://localhost:8080/Middleware?wsdl"/>
+    </exec>
+  </target>
+</project>
