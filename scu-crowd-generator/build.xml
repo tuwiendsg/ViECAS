@@ -1,7 +1,7 @@
 <project default="wsgen">
  <target name="wsgen" >
   <exec executable="wsgen">
-   <arg line="-cp ../common/bin:./bin -keep -s ./src -d ./bin at.ac.tuwien.dsg.scucrowd.metacrowd.api.MetaCrowdWS"/>
+   <arg line="-cp ../scu-common/bin:./bin -keep -s ./src -d ./bin at.ac.tuwien.dsg.scu.crowd.api.CrowdManagerWS"/>
   </exec>
  </target>
 </project>

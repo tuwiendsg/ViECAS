@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
-@XmlRootElement(name = "getResponseTime", namespace = "http://api.metacrowd.scucrowd.dsg.tuwien.ac.at/")
+@XmlRootElement(name = "getResponseTime", namespace = "http://api.crowd.scu.dsg.tuwien.ac.at/")
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "getResponseTime", namespace = "http://api.metacrowd.scucrowd.dsg.tuwien.ac.at/", propOrder = {
+@XmlType(name = "getResponseTime", namespace = "http://api.crowd.scu.dsg.tuwien.ac.at/", propOrder = {
     "arg0",
     "arg1",
     "arg2"

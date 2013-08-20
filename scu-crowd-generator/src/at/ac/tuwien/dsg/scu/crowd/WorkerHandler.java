@@ -180,7 +180,7 @@ public class WorkerHandler {
         double lowerBound = AptitudeMembershipFunctions.getInstance().getMembershipFunction(a.getQuality()).lowerBound();
         double upperBound = AptitudeMembershipFunctions.getInstance().getMembershipFunction(a.getQuality()).upperBound();
         Aptitude apt = worker.getCompetence().getAptitudeForType(a.getType());
-        if (apt.getScore()<=lowerBound || apt.getScore()>=upperBound) {
+        if (apt==null || (apt.getScore()<=lowerBound || apt.getScore()>=upperBound)) {
           match = false;
           break;
         }

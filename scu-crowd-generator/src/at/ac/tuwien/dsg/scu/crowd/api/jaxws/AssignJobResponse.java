@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
-@XmlRootElement(name = "assignJobResponse", namespace = "http://api.metacrowd.scucrowd.dsg.tuwien.ac.at/")
+@XmlRootElement(name = "assignJobResponse", namespace = "http://api.crowd.scu.dsg.tuwien.ac.at/")
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "assignJobResponse", namespace = "http://api.metacrowd.scucrowd.dsg.tuwien.ac.at/")
+@XmlType(name = "assignJobResponse", namespace = "http://api.crowd.scu.dsg.tuwien.ac.at/")
 public class AssignJobResponse {
 
     @XmlElement(name = "return", namespace = "")

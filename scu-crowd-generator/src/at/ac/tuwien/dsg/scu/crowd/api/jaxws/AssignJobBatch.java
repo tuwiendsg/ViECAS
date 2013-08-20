@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
-@XmlRootElement(name = "assignJobBatch", namespace = "http://api.metacrowd.scucrowd.dsg.tuwien.ac.at/")
+@XmlRootElement(name = "assignJobBatch", namespace = "http://api.crowd.scu.dsg.tuwien.ac.at/")
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "assignJobBatch", namespace = "http://api.metacrowd.scucrowd.dsg.tuwien.ac.at/")
+@XmlType(name = "assignJobBatch", namespace = "http://api.crowd.scu.dsg.tuwien.ac.at/")
 public class AssignJobBatch {
 
     @XmlElement(name = "arg0", namespace = "")
