@@ -1,0 +1,12 @@
+
+** scu-common
+This project provides common classes for SCU which must be included by other projects.
+
+** scu-crowd-generator
+1. This project contains a generator for an SCU crowd. The configuration of the generator is in scu-crowd-generator.properties. 
+2. By default, the generated crowd is stored in an sqlite database in the database folder.
+3. This project also contains a Crowd Manager program which provides access to the crowd thru a webservice. Methods exposed thru the webservice are in CrowdManagerWS class.
+
+** scu-crowd-consumer
+1. This project provides an example on how to access webservices provided by the Crowd Manager.
+2. However, accessing the crowd thru a webservice may cause a communication delay. Alternatively, the crowd database can be accessed directly by the consumer.
