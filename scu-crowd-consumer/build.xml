@@ -1,8 +1,0 @@
-<project default="wsimport">
-  <target name="wsimport">
-    <exec executable="wsimport">
-      <arg line="-keep -s ./src -p at.ac.tuwien.dsg.scu.crowd.jaxws 
-          -d ./bin http://localhost:8081/CrowdManager?wsdl"/>
-    </exec>
-  </target>
-</project>
