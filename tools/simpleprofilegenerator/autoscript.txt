@@ -1,0 +1,7 @@
+create table People (name varchar(20), cost smallint, org varchar(80));
+create table Skill  (name varchar(20), skill varchar(80), weight smallint);
+create table Availability  (name varchar(20), start smallint, stop smallint, timezone smallint);
+.separator ","
+.import people.csv people
+.import skill.csv skill
+.import availability.csv availability
